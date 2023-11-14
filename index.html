@@ -1,33 +1,55 @@
-<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Bonef Teofil</title>
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+    <title>Teofil's projects</title>
     <style>
         body {
+            background-color: rgb(40, 40, 40);
+            color: aliceblue;
+            font-family: 'Roboto';
             display: flex;
-            justify-content: center;
             align-items: center;
             flex-direction: column;
-            height: 100vh;
         }
 
-        p {
-            font-size: 2rem;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: bold;
-            color: darkolivegreen;
+        .button {
+            display: block;
+            width: 200px;
+            height: 50px;
+            border-radius: 10px;
+            text-align: center;
+            font-size: 24px;
+            font-family: 'Roboto';
+            text-decoration: none;
+            line-height: 50px;
+            color: aliceblue;
+            transition: all 0.3s ease;
+            cursor: pointer;
+            margin: 20px;
+            background-color: rgb(98, 77, 118);
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+            background-color: rgb(137, 108, 164);
+        }
+
+        .button:active {
+            transform: translateY(2px);
         }
     </style>
 </head>
 
 <body>
-    <p>
-        The website is under construction!
-    </p>
-    <p>
-        We will be back soon!
-    </p>
+    <h1>Bonef Teofil's projects</h1>
+    <h1>
+        <a href="https://bonef-teofil.github.io/Atestat-Info" class="button blue">Atestat Info</a>
+        <a href="https://bonef-teofil.github.io/LogIn/login.html" class="button blue">Login</a>
+        <a href="https://bonef-teofil.github.io/xand0" class="button blue">X and 0 Game</a>
+        <a href="https://bonef-teofil.github.io/Teofil-Projects-Old" class="button blue">Old projects</a>
+    </h1>
 </body>
 
 </html>

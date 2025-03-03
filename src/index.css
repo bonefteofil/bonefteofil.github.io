@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Pixelify+Sans:wght@400..700&display=swap');
+
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color: var(--text-color);
+  background: linear-gradient(135deg, #f0f0f0, #dcdcdc);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --panel-background-color: #f8f8f8;
+  --panel-hover-color: #eee;
+  --panel-click-color: #ddd;
+  --text-color: #333;
+  --border-color: #444;
+  --shadow-color-dark: rgba(0, 0, 0, 0.7);
+  --shadow-color-light: rgba(255, 255, 255, 0.7);
+}
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Jersey 10", sans-serif;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.button_project {
+  width: 250px;
+  height: 55px;
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 55px;
+  text-decoration: none;
+  color: var(--text-color);
+  background-color: var(--panel-background-color);
+  border: 3px solid var(--border-color);
+  box-shadow:
+    -3px 4px 2px var(--shadow-color-dark),
+    3px -4px 5px var(--shadow-color-light);
+  transition: all 0.2s;
+  display: inline-block;
+}
+
+.button_project:hover {
+  background-color: var(--panel-hover-color);
+  box-shadow:
+    -3px 2px 2px var(--shadow-color-dark),
+    4px -5px 5px var(--shadow-color-light);
+  transform: translate(-1px, 2px);
+}
+
+.button_project:active {
+  background-color: var(--panel-click-color);
+  box-shadow:
+    -2px 1px 2px var(--shadow-color-dark),
+    5px -7px 5px var(--shadow-color-light);
+  transform: translate(-2px, 4px);
+}

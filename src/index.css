@@ -41,11 +41,10 @@ h1 {
 }
 
 .button_project {
-  width: 250px;
-  height: 55px;
+  margin: 0, auto;
   font-size: 22px;
   font-weight: bold;
-  line-height: 55px;
+  padding: 10px 20px;
   text-decoration: none;
   color: var(--text-color);
   background-color: var(--panel-background-color);
@@ -71,4 +70,17 @@ h1 {
     -2px 1px 2px var(--shadow-color-dark),
     5px -7px 5px var(--shadow-color-light);
   transform: translate(-2px, 4px);
+}
+
+.panel {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  flex-direction: column;
+  margin: 20px;
+  padding: 20px;
+  border: 3px solid var(--border-color);
+  box-shadow:
+    -3px 4px 2px var(--shadow-color-dark),
+    3px -4px 5px var(--shadow-color-light);
 }

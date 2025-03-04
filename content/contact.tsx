@@ -7,8 +7,8 @@ export default function Contact() {
 
     return (
 
-        <Panel title="CONTACT">
-            <h4 style={{ maxWidth: '800px', marginTop: '20px' }}>
+        <Panel title="Bonef Teofil">
+            <div style={{ maxWidth: '500px', textAlign: 'center', margin: 'auto' }}>
                 <a href="https://www.github.com/bonefteofil" target='_blank'>
                     <img
                         className="shadow clickable"
@@ -37,9 +37,9 @@ export default function Contact() {
                     />
                 </a>
                 <br /> <br />
-                - Email:&nbsp; <a href="mailto: bonef.teofil@gmail.com">bonef.teofil@gmail.com</a><br />
+                - Email:&nbsp;<a href="mailto: bonef.teofil@gmail.com">bonef.teofil@gmail.com</a><br />
                 - Location: Bucharest, Romania
-            </h4>
+            </div>
         </Panel>
     )
 }

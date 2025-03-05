@@ -5,13 +5,13 @@ export default function PortfolioWebsite() {
 
     return (
         <ButtonProject
-            title="Portfolio Presentation Website"
-            year={2022}
+            title="2022 - Portfolio Presentation Website"
             href="https://nicoviangi.ro/"
             github="https://github.com/Skiuileuf/nicoviangi"
+            images={1}
         >
-            Acest website este un portofoliu pentru prezentarea proiectelor imobiliare ale firmei Nicoviangi.
-            Tema este minimalista specifica preferintelor clientilor acelei firme.
+            I contributed to the development of a portfolio presentation website for Nicoviangi using the Bootstrap framework,
+            featuring a minimalist theme aligned with the preferences of potential buyers.
         </ButtonProject>
     );
 }

@@ -56,6 +56,7 @@ h6 {
   background-color: var(--button-background-color);
   transition: all 0.2s;
   display: inline-block;
+  text-align: center;
 }
 
 .button-project:hover {

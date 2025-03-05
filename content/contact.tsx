@@ -12,7 +12,7 @@ export default function Contact() {
                 <a href="https://www.github.com/bonefteofil" target='_blank'>
                     <img
                         className="shadow clickable"
-                        src={BASE_URL + "github.svg"}
+                        src={BASE_URL + "icons/github.svg"}
                         alt="GitHub"
                         style={{
                             width: '90',
@@ -26,7 +26,7 @@ export default function Contact() {
                 <a href="https://www.linkedin.com/in/bonef-teofil/?locale=en_US" target='_blank'>
                     <img
                         className="shadow clickable"
-                        src={BASE_URL + "linkedin.svg"}
+                        src={BASE_URL + "icons/linkedin.svg"}
                         alt="LinkedIn"
                         style={{
                             width: '90',

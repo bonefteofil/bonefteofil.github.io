@@ -4,7 +4,8 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "rm -rf node_modules/.vite && vite",
+    "clear": "rm -rf node_modules/.vite",
+    "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
@@ -12,8 +13,10 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@tailwindcss/vite": "^4.0.10",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "react-dom": "^19.0.0",
+    "tailwindcss": "^4.0.10"
   },
   "devDependencies": {
     "@eslint/js": "^9.21.0",

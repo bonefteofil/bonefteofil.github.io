@@ -8,8 +8,8 @@ export default function PersonalWebsite() {
             title="2025 - Personal Portfolio Website"
             github="https://github.com/bonefteofil/bonefteofil.github.io"
         >
-            I created this website to show my projects and skills. The website is built with React and TypeScript and is
-            hosted on GitHub Pages.
+            I created this website to show my projects and skills. The website is built with React and TypeScript,
+            font from google 'Jersey 10' and ishosted on GitHub Pages.
         </ButtonProject>
     );
 }

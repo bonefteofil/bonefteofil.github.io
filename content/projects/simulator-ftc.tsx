@@ -1,5 +1,6 @@
 import React from "react";
 import ButtonProject from "../../components/button-project";
+import Button from "../../components/button";
 
 export default function SimulatorFtc() {
 
@@ -10,13 +11,12 @@ export default function SimulatorFtc() {
         >
             As part of the FTC competition, I created a simulation in Unity of the team's robot with holonomic movement, allowing us to
             achieve autonomous navigation.
-            <br />
-            <a className='button-project shadow clickable borders' style={{ marginRight: '14px' }}
-                href="https://bonefteofil.github.io/Atestat-Info/Diverse/Ftc%20Robot%20Setup%20(x86).exe"
-            >Download for Windows</a>
-            <a className='button-project shadow clickable borders' style={{ marginTop: '14px' }}
-                href="https://bonefteofil.github.io/Atestat-Info/Diverse/Ftc%20Robot.app.zip"
-            >Download for MacOS</a>
+            <div className="flex gap-2">
+                <Button text="Download for Windows"
+                    href="https://bonefteofil.github.io/Atestat-Info/Diverse/Ftc%20Robot%20Setup%20(x86).exe" />
+                <Button text="Download for MacOS"
+                    href="https://bonefteofil.github.io/Atestat-Info/Diverse/Ftc%20Robot.app.zip" />
+            </div>
         </ButtonProject>
     );
 }

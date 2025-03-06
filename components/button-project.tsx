@@ -1,5 +1,6 @@
 import React from "react";
 import { useState } from "react";
+import Button from "./button";
 
 export interface ButtonProjectProps {
     title: string;
@@ -23,48 +24,46 @@ export default function ButtonProject({ title, children, github, href, images }:
     return (
         <>
             {/* PROJECT BUTTON */}
-            <div className="button-project shadow clickable borders" onClick={() => { setModalOpen(true) }}>
-                <h3>{title}</h3>
-            </div>
+            <Button text={title} onClick={() => { setModalOpen(true) }} />
 
             {/* MODAL */}
-            {modalOpen && <div className="modal" onClick={() => setModalOpen(false)}>
-                <div className="modal-content shadow borders" onClick={(e) => e.stopPropagation()}>
+            {modalOpen && <div
+                className="fixed inset-0 flex items-start justify-center bg-black/50 py-10 overflow-y-auto transition-all duration-200"
+                onClick={() => setModalOpen(false)}
+            >
+                <div
+                    className="m-3 md:m-0 md:w-4/5 max-w-200 p-3 bg-[var(--panel-background-color)] panel"
+                    onClick={(e) => e.stopPropagation()}
+                >
 
                     {/* HEADER */}
-                    <div style={{ marginBottom: '14px' }}>
-                        <button
-                            className='button-project shadow clickable borders'
-                            style={{ height: '2rem', marginLeft: '14px', float: 'right' }}
-                            onClick={() => setModalOpen(false)}
-                        >
-                            X
-                        </button>
-                        <h2>{title}</h2>
+                    <div>
+                        <div className="height-2 ml-2 float-right" >
+                            <Button text="X" onClick={() => setModalOpen(false)} />
+                        </div>
+                        <p className='text-xl/5 mb-3'>{title}</p>
                     </div>
 
                     {/* CONTENT */}
                     <div>
-                        {href && <a href={href} target="_blank"
-                            className="button-project shadow clickable borders"
-                            style={{ marginRight: '14px', float: 'left' }}>Live
-                        </a>}
-                        {github && <a href={github} target="_blank"
-                            className="button-project shadow clickable borders"
-                            style={{ marginRight: '14px', float: 'left' }}>Github
-                        </a>}
+                        {/* WEBSITE & GITHUB BUTTONS */}
+                        <div className="flex gap-2 float-left mr-2">
+                            {!!href && <Button text="Live" href={href} />}
+                            {!!github && <Button text="Github" href={github} />}
+                        </div>
 
-                        {/* IMAGES */}
                         {!!images && images > 0 && <>
-                            {(!!href || !!github) && <div style={{ height: '60px' }}></div>}
+                            {/* add padding */}
+                            {(!!href || !!github) && <div className="w-full p-5" />}
+
+                            {/* IMAGES */}
                             {Array.from({ length: images }, (_, i) => (
-                                <div style={{ display: 'flex', justifyContent: 'center' }}>
+                                <div className="flex justify-center" key={i}>
                                     <img
                                         key={i}
-                                        className="shadow borders"
+                                        className="panel w-fit mb-2"
                                         src={`${BASE_URL}projects/${title}/${i + 1}.jpg`}
                                         alt={`Image ${i + 1}`}
-                                        style={{ width: '100%', marginBottom: '14px' }}
                                     />
                                 </div>
                             ))}
@@ -72,7 +71,7 @@ export default function ButtonProject({ title, children, github, href, images }:
 
                         {/* indent first row if there are no buttons or it's a image */}
                         {(!github && !href || images) &&
-                            <div style={{ width: '50px', height: '10px', float: 'left' }} />}
+                            <div className="w-10 h-1 float-start" />}
                         {children}
                     </div>
                 </div>

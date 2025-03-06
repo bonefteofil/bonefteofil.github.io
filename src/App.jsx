@@ -4,17 +4,15 @@ import Skills from '../content/skills';
 import Projects from '../content/projects';
 import Education from '../content/education';
 
-function App() {
+export default function App() {
 
   return (
-    <>
+    <div>
       <Contact />
       <AboutMe />
       <Skills />
       <Projects />
       <Education />
-    </>
+    </div>
   )
 }
-
-export default App

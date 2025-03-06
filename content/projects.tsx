@@ -1,24 +1,23 @@
 import React from "react";
 import Panel from "../components/panel";
-import PortfolioWebsite from "./projects/portfolio-website";
-import Xand0 from "./projects/xand0";
-import SimulatorFtc from "./projects/simulator-ftc";
-import GameEngineCSharp from "./projects/game-engine-cSharp";
-import FTC from "./projects/ftc";
-import NicoviangiManager from "./projects/nicoviangi-manager";
-import CastingManager from "./projects/casting-manager";
-import OllamaApi from "./projects/ollama-api";
-import SCS2023 from "./projects/scs-2023";
-import SCS2024 from "./projects/scs-2024";
 import PersonalWebsite from "./projects/personal-website";
+import OllamaApi from "./projects/ollama-api";
+import CastingManager from "./projects/casting-manager";
+import SCS2024 from "./projects/scs-2024";
+import NicoviangiManager from "./projects/nicoviangi-manager";
+import SCS2023 from "./projects/scs-2023";
+import Xand0 from "./projects/xand0";
+import PortfolioWebsite from "./projects/portfolio-website";
 import InformaticCertification from "./projects/informatic-certification";
-import SimpleAuth from "./projects/simple-auth";
+import SimulatorFtc from "./projects/simulator-ftc";
+import FTC from "./projects/ftc";
+import GameEngineCSharp from "./projects/game-engine-cSharp";
 
 export default function Projects() {
 
     return (
         <Panel title="Projects">
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '14px' }}>
+            <div className="grid grid-cols-1 gap-2">
                 <PersonalWebsite />
                 <OllamaApi />
                 <CastingManager />
@@ -27,7 +26,6 @@ export default function Projects() {
                 <SCS2023 />
                 <Xand0 />
                 <PortfolioWebsite />
-                <SimpleAuth />
                 <InformaticCertification />
                 <SimulatorFtc />
                 <FTC />

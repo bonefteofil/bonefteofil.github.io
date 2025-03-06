@@ -5,7 +5,7 @@ export default function AboutMe() {
 
     return (
         <Panel title="ABOUT MYSELF" >
-            <center style={{ maxWidth: '800px' }}>
+            <center>
                 I am a 21 year old student dedicated and passionate about programming.
                 My active participation in numerous competitions and Olympiads has been complemented by the
                 development of various projects in which I have tackled complex challenges and proposed efficient solutions.

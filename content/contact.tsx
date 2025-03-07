@@ -1,5 +1,6 @@
 import React from "react";
 import Panel from "../components/panel";
+import Button from "../components/button";
 
 export default function Contact() {
 
@@ -10,26 +11,19 @@ export default function Contact() {
         <Panel title="Bonef Teofil">
             <div className="flex flex-col items-center gap-2">
                 Passionate student
-                <div className="flex flex-row gap-4">
-                    <a href="https://www.github.com/bonefteofil" target='_blank'>
-                        <img
-                            className="panel clickable w-8 h-8"
-                            src={BASE_URL + "icons/github.svg"}
-                            alt="GitHub"
-                        />
-                    </a>
-                    <a href="https://www.linkedin.com/in/bonef-teofil/?locale=en_US" target='_blank'>
-                        <img
-                            className="panel clickable w-8 h-8"
-                            src={BASE_URL + "icons/linkedin.svg"}
-                            alt="LinkedIn"
-                        />
-                    </a>
+                <div className="flex flex-wrap gap-2 justify-center w-full">
+                    <Button href="https://www.linkedin.com/in/bonefteofil/?locale=en_US" icon="linkedin">
+                        LinkedIn<br />@bonefteofil
+                    </Button>
+                    <Button href="https://www.github.com/bonefteofil" icon="github">
+                        Github<br />@bonefteofil
+                    </Button>
+                    <Button href="mailto: bonef.teofil@gmail.com" icon="email">
+                        Email<br />bonef.teofil@gmail.com
+                    </Button>
                 </div>
                 <div className="text-center">
-                    - Email: <a className="underline text-blue-700 hover:text-blue-800 active:text-blue-800"
-                        href="mailto: bonef.teofil@gmail.com">bonef.teofil@gmail.com</a><br />
-                    - Location: Bucharest, Romania
+                    Location: Bucharest/Otopeni, Romania
                 </div>
             </div>
         </Panel>

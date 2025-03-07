@@ -24,7 +24,7 @@ export default function ButtonProject({ title, children, github, href, images }:
     return (
         <>
             {/* PROJECT BUTTON */}
-            <Button text={title} onClick={() => { setModalOpen(true) }} />
+            <Button onClick={() => { setModalOpen(true) }}>{title}</Button>
 
             {/* MODAL */}
             {modalOpen && <div
@@ -39,7 +39,7 @@ export default function ButtonProject({ title, children, github, href, images }:
                     {/* HEADER */}
                     <div>
                         <div className="height-2 ml-2 float-right" >
-                            <Button text="X" onClick={() => setModalOpen(false)} />
+                            <Button onClick={() => setModalOpen(false)}>X</Button>
                         </div>
                         <p className='text-xl/5 mb-3'>{title}</p>
                     </div>
@@ -48,8 +48,8 @@ export default function ButtonProject({ title, children, github, href, images }:
                     <div>
                         {/* WEBSITE & GITHUB BUTTONS */}
                         <div className="flex gap-2 float-left mr-2">
-                            {!!href && <Button text="Live" href={href} />}
-                            {!!github && <Button text="Github" href={github} />}
+                            {!!href && <Button href={href}>Live</Button>}
+                            {!!github && <Button href={github}>Github</Button>}
                         </div>
 
                         {!!images && images > 0 && <>

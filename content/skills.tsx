@@ -26,7 +26,7 @@ export default function Skills() {
                 <TechnologyLogo text="SQL" src={"sql"} />
                 <TechnologyLogo text="MongoDB" src={"mongodb"} />
                 <TechnologyLogo text="Flutter" src={"flutter"} />
-                <TechnologyLogo text="Github" src={"github2"} />
+                <TechnologyLogo text="Github" src={"github"} />
             </div>
 
             Abilities: Algorithms, Data structures, OOP, Code refactoring, Problem solving, Testing and Debugging <br />

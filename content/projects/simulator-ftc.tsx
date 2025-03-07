@@ -12,10 +12,14 @@ export default function SimulatorFtc() {
             As part of the FTC competition, I created a simulation in Unity of the team's robot with holonomic movement, allowing us to
             achieve autonomous navigation.
             <div className="flex gap-2">
-                <Button text="Download for Windows"
-                    href="https://bonefteofil.github.io/Atestat-Info/Diverse/Ftc%20Robot%20Setup%20(x86).exe" />
-                <Button text="Download for MacOS"
-                    href="https://bonefteofil.github.io/Atestat-Info/Diverse/Ftc%20Robot.app.zip" />
+                <Button
+                    href="https://bonefteofil.github.io/Atestat-Info/Diverse/Ftc%20Robot%20Setup%20(x86).exe">
+                    Download for Windows
+                </Button>
+                <Button
+                    href="https://bonefteofil.github.io/Atestat-Info/Diverse/Ftc%20Robot.app.zip">
+                    Download for MacOS
+                </Button>
             </div>
         </ButtonProject>
     );

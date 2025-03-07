@@ -9,17 +9,18 @@ export default function Contact() {
 
         <Panel title="Bonef Teofil">
             <div className="flex flex-col items-center gap-2">
+                Passionate student
                 <div className="flex flex-row gap-4">
                     <a href="https://www.github.com/bonefteofil" target='_blank'>
                         <img
-                            className="panel clickable w-8 h-8 rounded-full !border-0"
+                            className="panel clickable w-8 h-8"
                             src={BASE_URL + "icons/github.svg"}
                             alt="GitHub"
                         />
                     </a>
                     <a href="https://www.linkedin.com/in/bonef-teofil/?locale=en_US" target='_blank'>
                         <img
-                            className="panel clickable w-8 h-8 rounded-full !border-0"
+                            className="panel clickable w-8 h-8"
                             src={BASE_URL + "icons/linkedin.svg"}
                             alt="LinkedIn"
                         />

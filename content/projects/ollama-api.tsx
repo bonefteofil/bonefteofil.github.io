@@ -8,9 +8,9 @@ export default function OllamaApi() {
             title="2024 - Chatbot and Tic-Tac-Toe Game with Ollama API Integration"
             github="https://github.com/bonefteofil/Ollama-API-Integration"
         >
-            I developed a chatbot that utilizes the local API from
-            Ollama. In the same project, I also created a Tic-Tac-Toe game where Ollama acts as the opponent, receiving a
-            prompt with the game board at each move.
+            I developed a app where you can play Tic-Tac-Toe with Ollama using the local API. This project consist of two parts: <br /><br />
+            - the chatbot, an interface where you can talk with Ollama (doesn't have history)<br />
+            - the game, where you can play Tic-Tac-Toe with Ollama (it's not so smart)<br />
         </ButtonProject>
     );
 }

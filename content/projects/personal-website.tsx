@@ -21,7 +21,7 @@ export default function PersonalWebsite() {
             <div className="text-xl mt-2">Design</div>
             The design takes inspiration from retro-style interfaces, featuring sharp corners and a minimalistic aesthetic, but with a modern touch.<br />
             - the color palette is composed of shades of gray, with the background gradient in blue and purple.<br />
-            - cons are from <a className="text-blue-600 underline" target="_blank" href="https://www.svgrepo.com/">SVG Repo</a> and <a className="text-blue-600 underline" target="_blank" href="https://www.iconfinder.com/">Iconfinder</a>.<br />
+            - icons are from <a className="text-blue-600 underline" target="_blank" href="https://www.svgrepo.com/">SVG Repo</a> and <a className="text-blue-600 underline" target="_blank" href="https://www.iconfinder.com/">Iconfinder</a>.<br />
             - font from google <a className="text-blue-600 underline" target="_blank" href="https://fonts.google.com/specimen/Jersey+10">Jersey 10</a>.
         </ButtonProject>
     );

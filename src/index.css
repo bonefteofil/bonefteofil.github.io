@@ -2,8 +2,9 @@
 @import "tailwindcss";
 
 :root {
-  --panel-background-color: #e9e8e7;
-  --button-background-color: #ffffff;
+  --panel-transparent-bg-cl: #f7f4f290;
+  --panel-bg-cl: #f7f4f2;
+  --button-bg-color: #ffffff;
   --button-hover-color: #dadada;
   --button-click-color: #ccc;
   --text-color: #333;
@@ -17,22 +18,13 @@
   line-height: 1;
 
   color: var(--text-color);
-  background: linear-gradient(135deg, #e0d8e3, #d5dce1);
+  background: linear-gradient(135deg, #aec3d1, #d5bedd);
   background-attachment: fixed;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-}
-
-body {
-  margin: 0;
-  padding: 2rem 0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
 }
 
 .panel {

@@ -32,7 +32,7 @@ export default function ButtonProject({ title, children, github, href, images }:
                 onClick={() => setModalOpen(false)}
             >
                 <div
-                    className="m-3 md:m-0 md:w-4/5 max-w-200 p-3 bg-[var(--panel-background-color)] panel"
+                    className="m-3 md:m-0 md:w-4/5 max-w-200 p-3 bg-[var(--panel-bg-cl)] panel"
                     onClick={(e) => e.stopPropagation()}
                 >
 

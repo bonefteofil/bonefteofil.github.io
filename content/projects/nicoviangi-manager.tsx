@@ -7,7 +7,6 @@ export default function NicoviangiManager() {
         <ButtonProject
             title="2023 - Web Application for Managing Contracts"
             href="https://nv-management.vercel.app/"
-            github="https://github.com/Skiuileuf/nv-management"
             images={2}
         >
             I collaborated with a colleague to build a Next.js web application that fills

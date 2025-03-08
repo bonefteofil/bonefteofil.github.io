@@ -17,7 +17,7 @@ export default function Projects() {
 
     return (
         <Panel title="Projects">
-            <div className="grid grid-cols-1 gap-2">
+            <div className="grid grid-cols-1 xl:grid-cols-2 gap-2">
                 <PersonalWebsite />
                 <OllamaApi />
                 <CastingManager />

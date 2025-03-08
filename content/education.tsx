@@ -5,7 +5,7 @@ import FixedText from "../components/fixed-text"
 export default function Education() {
 
     return (
-        <Panel title="EDUCATION & AWARDS" >
+        <Panel title="EDUCATION & AWARDS">
             <div className="text-xl/5">
                 <div className="w-10 h-1 float-start" />Faculty of Mechanical Engineering and Mechatronics,
                 Polytechnic University of Bucharest, Robotics Specialization [2022 - Current]

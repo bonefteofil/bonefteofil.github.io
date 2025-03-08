@@ -14,7 +14,7 @@ export default function Button({ href, icon, onClick, children }: ButtonProps) {
     return (
         <a className={`panel clickable text-center flex flex-row gap-1 grow
             ${icon ? "px-1 py-1" : "px-3 py-1.5"}
-            bg-[var(--button-background-color)]
+            bg-[var(--button-bg-color)]
             hover:bg-[var(--button-hover-color)]
             active:bg-[var(--button-click-color)]`}
             {...(href ? { href: href, target: '_blank' } : {})}

@@ -4,10 +4,7 @@ import Button from "../components/button";
 
 export default function Contact() {
 
-    const BASE_URL = (import.meta as any).env.BASE_URL;
-
     return (
-
         <Panel title="Bonef Teofil">
             <div className="flex flex-col items-center gap-2">
                 Passionate student

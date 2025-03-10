@@ -10,7 +10,7 @@ export default function InformaticCertification() {
             images={1}
         >
             This is a project I made for my informatic certification. It's a website made from a template,
-            in witch I show some algorithms I learned in high school and some personal projects.
+            in which I show some algorithms I learned in high school and some personal projects.
         </ButtonProject>
     );
 }

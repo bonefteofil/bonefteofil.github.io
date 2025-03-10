@@ -6,7 +6,7 @@ import CastingManager from "./projects/casting-manager";
 import SCS2024 from "./projects/scs-2024";
 import NicoviangiManager from "./projects/nicoviangi-manager";
 import SCS2023 from "./projects/scs-2023";
-import Xand0 from "./projects/xand0";
+import TicTacToe from "./projects/tictactoe";
 import PortfolioWebsite from "./projects/portfolio-website";
 import InformaticCertification from "./projects/informatic-certification";
 import SimulatorFtc from "./projects/simulator-ftc";
@@ -24,7 +24,7 @@ export default function Projects() {
                 <SCS2024 />
                 <NicoviangiManager />
                 <SCS2023 />
-                <Xand0 />
+                <TicTacToe />
                 <PortfolioWebsite />
                 <InformaticCertification />
                 <SimulatorFtc />

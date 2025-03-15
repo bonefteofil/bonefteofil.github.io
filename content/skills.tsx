@@ -12,7 +12,8 @@ export default function Skills() {
                 <TechnologyLogo text="Python" src={"python"} />
                 <TechnologyLogo text="React" src={"react"} />
                 <TechnologyLogo text="HTML" src={"html"} />
-                <TechnologyLogo text="Java script" src={"javascript"} />
+                <TechnologyLogo text="JavaScript" src={"javascript"} />
+                <TechnologyLogo text="TypeScript" src={"typescript"} />
                 <TechnologyLogo text="CSS" src={"css"} />
                 <TechnologyLogo text="Node.js" src={"nodejs"} />
                 <TechnologyLogo text="Next.js" src={"nextjs"} />

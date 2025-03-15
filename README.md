@@ -1,6 +1,6 @@
 # Personal website
 As a student passionate about software development, I'm always looking to improve my skills and share my work with the world.
-I build this website to serve as my digital portfolio, where I can showcase my projects, tehnologies I've worked with and my overall growth as a developer.
+I built this website to serve as my digital portfolio, where I showcase my projects, the tehnologies I've worked with and my overall growth as a developer.
 In the contact section, uesrs can find my social and email, while on the projects page, users can explore my work with descriptions, source code links and media previews.
 
 ## Tech stack

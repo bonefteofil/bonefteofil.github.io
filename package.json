@@ -6,7 +6,7 @@
   "scripts": {
     "clean": "rm -rf node_modules/.vite",
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && cp CNAME dist/",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",

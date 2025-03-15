@@ -1,4 +1,3 @@
-import React from "react"
 import Panel from "../components/panel"
 import FixedText from "../components/fixed-text"
 

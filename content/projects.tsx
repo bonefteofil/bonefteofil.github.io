@@ -1,4 +1,3 @@
-import React from "react";
 import Panel from "../components/panel";
 import PersonalWebsite from "./projects/personal-website";
 import OllamaApi from "./projects/ollama-api";

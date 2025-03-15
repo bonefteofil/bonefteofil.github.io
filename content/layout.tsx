@@ -1,4 +1,3 @@
-import React from 'react';
 import ContactVertical from '../content/contact-vertical';
 import Contact from '../content/contact';
 import AboutMe from '../content/about_me';

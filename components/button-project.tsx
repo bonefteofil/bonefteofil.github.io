@@ -35,45 +35,43 @@ export default function ButtonProject({ title, children, github, href, images }:
                     className="m-3 md:m-0 md:w-4/5 max-w-200 p-3 bg-[var(--panel-bg-cl)] panel"
                     onClick={(e) => e.stopPropagation()}
                 >
-
-                    {/* HEADER */}
-                    <div>
-                        <div className="height-2 ml-2 float-right" >
-                            <Button onClick={() => setModalOpen(false)}>X</Button>
-                        </div>
-                        <p className='text-xl/5 mb-3'>{title}</p>
+                    {/* CLOSE BUTTON */}
+                    <div className="height-2 ml-2 float-right" >
+                        <Button onClick={() => setModalOpen(false)}>X</Button>
                     </div>
+
+                    {/* WEBSITE & GITHUB BUTTONS */}
+                    <div className="flex gap-2 float-left mr-2">
+                        {!!href && <Button href={href}>Live</Button>}
+                        {!!github && <Button href={github}>Github</Button>}
+                        {/* <div className="w-full" /> */}
+                    </div>
+
+                    {/* PADDING */}
+                    {(!!href || !!github) && <div className="w-full p-5" />}
+
+                    {/* TITLE */}
+                    <p className={`text-xl/5 mb-4 ${(github || href) ? 'text-center' : 'text-left'}`}>{title}</p>
+
+                    {/* IMAGES */}
+                    {!!images && images > 0 && <>
+                        {Array.from({ length: images }, (_, i) => (
+                            <div className="flex justify-center" key={i}>
+                                <img
+                                    key={i}
+                                    className="panel w-fit mb-2"
+                                    src={`${BASE_URL}projects/${title}/${i + 1}.jpg`}
+                                    alt={`Image ${i + 1}`}
+                                />
+                            </div>
+                        ))}
+                    </>}
+
+                    {/* INDENT */}
+                    <div className="w-10 h-1 float-start" />
 
                     {/* CONTENT */}
-                    <div>
-                        {/* WEBSITE & GITHUB BUTTONS */}
-                        <div className="flex gap-2 float-left mr-2">
-                            {!!href && <Button href={href}>Live</Button>}
-                            {!!github && <Button href={github}>Github</Button>}
-                        </div>
-
-                        {!!images && images > 0 && <>
-                            {/* add padding */}
-                            {(!!href || !!github) && <div className="w-full p-5" />}
-
-                            {/* IMAGES */}
-                            {Array.from({ length: images }, (_, i) => (
-                                <div className="flex justify-center" key={i}>
-                                    <img
-                                        key={i}
-                                        className="panel w-fit mb-2"
-                                        src={`${BASE_URL}projects/${title}/${i + 1}.jpg`}
-                                        alt={`Image ${i + 1}`}
-                                    />
-                                </div>
-                            ))}
-                        </>}
-
-                        {/* indent first row if there are no buttons or it's a image */}
-                        {(!github && !href || images) &&
-                            <div className="w-10 h-1 float-start" />}
-                        {children}
-                    </div>
+                    {children}
                 </div>
             </div>}
         </>

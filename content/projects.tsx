@@ -11,12 +11,14 @@ import InformaticCertification from "./projects/informatic-certification";
 import SimulatorFtc from "./projects/simulator-ftc";
 import FTC from "./projects/ftc";
 import GameEngineCSharp from "./projects/game-engine-cSharp";
+import SCS2025 from "./projects/scs-2025";
 
 export default function Projects() {
 
     return (
         <Panel title="Projects">
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-2">
+                <SCS2025 />
                 <PersonalWebsite />
                 <OllamaApi />
                 <CastingManager />

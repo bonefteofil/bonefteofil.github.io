@@ -18,9 +18,9 @@ export default function Layout() {
                     <Contact />
                 </div>
                 <AboutMe />
-                <Skills />
                 <Projects />
                 <Education />
+                <Skills />
             </div>
         </div >
     )

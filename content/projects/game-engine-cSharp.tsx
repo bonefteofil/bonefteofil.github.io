@@ -6,7 +6,7 @@ export default function GameEngineCSharp() {
         <ButtonProject
             title='2019 - 2D Game Engine for Console in C-Sharp'
             github="https://github.com/bonefteofil/TeoEngine"
-            images={3}
+            images={2}
         >
             I made a library that displays polygons, ellipses, text, and buttons with properties such as
             position, rotation, color, parent-child relationships, and mouse events. It also

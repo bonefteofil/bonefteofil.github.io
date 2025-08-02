@@ -1,5 +1,6 @@
 import Panel from "../components/panel";
 import Button from "../components/button";
+import Link from "../components/link";
 
 export default function Contact() {
 
@@ -19,7 +20,8 @@ export default function Contact() {
                     </Button>
                 </div>
                 <div className="text-center">
-                    Location: Bucharest/Otopeni, Romania
+                    Location: <Link text="Bucharest" href="https://www.google.com/maps/place/Bucharest" />/
+                    <Link text="Otopeni" href="https://www.google.com/maps/place/Otopeni" />, <Link text="Romania" href="https://www.google.com/maps/place/Romania" />
                 </div>
             </div>
         </Panel>

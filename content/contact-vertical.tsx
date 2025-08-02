@@ -1,4 +1,5 @@
 import Button from '../components/button';
+import Link from '../components/link';
 
 export default function ContactVertical() {
 
@@ -19,7 +20,9 @@ export default function ContactVertical() {
                 <Button href="mailto: bonef.teofil@gmail.com" icon="email">
                     Email<br />bonef.teofil@gmail.com
                 </Button>
-                <div className='mt-[2vh]'>Location: Bucharest/Otopeni, Romania</div>
+                <div className='mt-[2vh]'>Location: <Link text="Bucharest" href="https://www.google.com/maps/place/Bucharest" />/
+                     <Link text="Otopeni" href="https://www.google.com/maps/place/Otopeni" />, <Link text="Romania" href="https://www.google.com/maps/place/Romania" />
+                </div>
             </div>
         </div>
     );

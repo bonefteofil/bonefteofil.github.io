@@ -6,11 +6,11 @@ export default function TechnologyLogo({ text, src }: { text: string, src: strin
     return (
         <center className="flex flex-col items-center">
             <img
-                className="w-10 h-10"
+                className="w-7 h-7 sm:w-10 sm:h-10"
                 src={BASE_URL + "icons/" + src + ".svg"}
                 alt={src}
             />
-            <p className="text-sm">{text}</p>
+            <p className="text-xs sm:text-sm">{text}</p>
         </center>
     );
 }

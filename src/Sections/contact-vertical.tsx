@@ -1,5 +1,5 @@
-import Button from '../components/button';
-import Link from '../components/link';
+import Button from '../Components/button';
+import Link from '../Components/link';
 
 export default function ContactVertical() {
 

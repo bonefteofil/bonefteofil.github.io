@@ -1,5 +1,5 @@
-import Panel from '../components/panel'
-import TechnologyLogo from '../components/tehnology-logo'
+import Panel from '../Components/panel'
+import TechnologyLogo from '../Components/tehnology-logo'
 
 export default function Skills() {
 

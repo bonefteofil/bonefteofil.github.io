@@ -1,5 +1,5 @@
-import ButtonProject from "../../components/button-project";
-import Button from "../../components/button";
+import ButtonProject from "../../Components/button-project";
+import Button from "../../Components/button";
 
 export default function SimulatorFtc() {
 

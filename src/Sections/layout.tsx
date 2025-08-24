@@ -1,9 +1,9 @@
-import ContactVertical from '../content/contact-vertical';
-import Contact from '../content/contact';
-import AboutMe from '../content/about_me';
-import Skills from '../content/skills';
-import Projects from '../content/projects';
-import Education from '../content/education';
+import ContactVertical from './contact-vertical';
+import Contact from './contact';
+import AboutMe from './about_me';
+import Skills from './skills';
+import Projects from './projects';
+import Education from './education';
 
 export default function Layout() {
 

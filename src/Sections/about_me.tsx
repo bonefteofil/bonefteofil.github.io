@@ -1,4 +1,4 @@
-import Panel from '../components/panel'
+import Panel from '../Components/panel'
 
 export default function AboutMe() {
 

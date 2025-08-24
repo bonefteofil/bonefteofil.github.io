@@ -1,4 +1,4 @@
-import ButtonProject from "../../components/button-project";
+import ButtonProject from "../../Components/button-project";
 
 export default function InformaticCertification() {
 

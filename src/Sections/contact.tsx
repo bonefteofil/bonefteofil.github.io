@@ -1,6 +1,6 @@
-import Panel from "../Components/panel";
-import Button from "../Components/button";
-import Link from "../Components/link";
+import Panel from "../components/Panel";
+import Button from "../components/Button";
+import Link from "../components/Link";
 
 export default function Contact() {
 

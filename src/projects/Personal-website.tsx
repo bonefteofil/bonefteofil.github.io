@@ -1,5 +1,5 @@
-import ButtonProject from "../../Components/button-project";
-import Link from "../../Components/link";
+import ButtonProject from "../components/Button-project";
+import Link from "../components/Link";
 
 export default function PersonalWebsite() {
 

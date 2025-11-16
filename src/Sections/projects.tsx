@@ -1,37 +1,25 @@
-import Panel from "../Components/panel";
-import PersonalWebsite from "./Projects/personal-website";
-import OllamaApi from "./Projects/ollama-api";
-import CastingManager from "./Projects/casting-manager";
-import SCS2024 from "./Projects/scs-2024";
-import NicoviangiManager from "./Projects/nicoviangi-manager";
-import SCS2023 from "./Projects/scs-2023";
-import TicTacToe from "./Projects/tictactoe";
-import PortfolioWebsite from "./Projects/portfolio-website";
-import InformaticCertification from "./Projects/informatic-certification";
-import SimulatorFtc from "./Projects/simulator-ftc";
-import FTC from "./Projects/ftc";
-import GameEngineCSharp from "./Projects/game-engine-cSharp";
-import SCS2025 from "./Projects/scs-2025";
-import TrainingML from "./Projects/train-ml";
+import Panel from "../components/Panel";
+import PersonalWebsite from "../projects/Personal-website";
+import CastingManager from "../projects/Casting-manager";
+import NicoviangiManager from "../projects/Nicoviangi-manager";
+import BiaxialRobot from "../projects/Biaxial-robot";
+import PortfolioWebsite from "../projects/Portfolio-website";
+import SimulatorFtc from "../projects/Simulator-ftc";
+import GameEngineCSharp from "../projects/Game-engine-cSharp";
+import QuadrupedRobot from "../projects/Quadruped-robot";
 
 export default function Projects() {
 
     return (
-        <Panel title="Projects">
+        <Panel title="Best Projects">
             <div className="grid grid-cols-1 xl:grid-cols-2 gap-2">
-                <TrainingML />
-                <SCS2025 />
                 <PersonalWebsite />
-                <OllamaApi />
+                <QuadrupedRobot />
                 <CastingManager />
-                <SCS2024 />
                 <NicoviangiManager />
-                <SCS2023 />
-                <TicTacToe />
+                <BiaxialRobot />
                 <PortfolioWebsite />
-                <InformaticCertification />
                 <SimulatorFtc />
-                <FTC />
                 <GameEngineCSharp />
             </div>
         </Panel>

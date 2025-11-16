@@ -1,5 +1,5 @@
-import Panel from "../Components/panel"
-import FixedWidthText from "../Components/fixed-width-text"
+import Panel from "../components/Panel"
+import FixedWidthText from "../components/Fixed-width-text"
 
 export default function Education() {
 

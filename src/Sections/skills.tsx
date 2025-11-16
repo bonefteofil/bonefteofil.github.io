@@ -1,5 +1,5 @@
-import Panel from '../Components/panel'
-import TechnologyLogo from '../Components/tehnology-logo'
+import Panel from '../components/Panel'
+import TechnologyLogo from '../components/Technology-logo'
 
 export default function Skills() {
 
@@ -17,6 +17,7 @@ export default function Skills() {
                 <TechnologyLogo text="TypeScript" src={"typescript"} />
                 <TechnologyLogo text="Arduino" src={"arduino"} />
                 <TechnologyLogo text="Python" src={"python"} />
+                <TechnologyLogo text="SQL" src={"sql"} />
                 <TechnologyLogo text="HTML" src={"html"} />
                 <TechnologyLogo text="CSS" src={"css"} />
 
@@ -28,7 +29,6 @@ export default function Skills() {
                 <TechnologyLogo text="Next.js" src={"nextjs"} />
                 <TechnologyLogo text="Rest API" src={"restapi"} />
                 <TechnologyLogo text="Java" src={"java"} />
-                <TechnologyLogo text="SQL" src={"sql"} />
                 <TechnologyLogo text="Flutter" src={"flutter"} />
 
                 <div className="w-full text-center mt-4">Other Skills:</div>

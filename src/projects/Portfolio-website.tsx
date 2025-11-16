@@ -1,4 +1,4 @@
-import ButtonProject from "../../Components/button-project";
+import ButtonProject from "../components/Button-project";
 
 export default function PortfolioWebsite() {
 

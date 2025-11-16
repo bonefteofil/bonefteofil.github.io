@@ -1,4 +1,4 @@
-import Layout from './Sections/layout'
+import Layout from './sections/Layout'
 
 export default function App() {
 

@@ -7,31 +7,29 @@ export default function Skills() {
         <Panel title="TECHNICAL SKILLS">
             <div className="flex flex-wrap gap-2 justify-center">
 
-                <div className="w-full text-center mt-4">Good:</div>
-                <TechnologyLogo text="C++" src={"c++"} />
+                <div className="w-full text-center mt-4">Strong:</div>
                 <TechnologyLogo text="React" src={"react"} />
-                <TechnologyLogo text="Github" src={"github"} />
-                <TechnologyLogo text="Material UI" src={"mui"} />
-                <TechnologyLogo text="Tailwind" src={"tailwind"} />
                 <TechnologyLogo text="JavaScript" src={"javascript"} />
                 <TechnologyLogo text="TypeScript" src={"typescript"} />
-                <TechnologyLogo text="Arduino" src={"arduino"} />
+                <TechnologyLogo text="Rest API" src={"restapi"} />
                 <TechnologyLogo text="Python" src={"python"} />
+                <TechnologyLogo text="Arduino" src={"arduino"} />
                 <TechnologyLogo text="SQL" src={"sql"} />
                 <TechnologyLogo text="HTML" src={"html"} />
-                <TechnologyLogo text="CSS" src={"css"} />
+                <TechnologyLogo text="Material UI" src={"mui"} />
 
                 <div className="w-full text-center mt-4">Basic:</div>
+                <TechnologyLogo text="C++" src={"c++"} />
                 <TechnologyLogo text="C#" src={"csharp"} />
-                <TechnologyLogo text="Node.js" src={"nodejs"} />
-                <TechnologyLogo text="Unity" src={"unity"} />
+                <TechnologyLogo text="Github" src={"github"} />
                 <TechnologyLogo text="MongoDB" src={"mongodb"} />
                 <TechnologyLogo text="Next.js" src={"nextjs"} />
-                <TechnologyLogo text="Rest API" src={"restapi"} />
+                <TechnologyLogo text="Tailwind" src={"tailwind"} />
+                <TechnologyLogo text="CSS" src={"css"} />
                 <TechnologyLogo text="Java" src={"java"} />
-                <TechnologyLogo text="Flutter" src={"flutter"} />
+                <TechnologyLogo text="Unity" src={"unity"} />
 
-                <div className="w-full text-center mt-4">Other Skills:</div>
+                <div className="w-full text-center mt-4">Competencies:</div>
                 <center>Algorithms, Data structures, OOP, Code refactoring, Problem solving, Debugging</center>
             </div>
 

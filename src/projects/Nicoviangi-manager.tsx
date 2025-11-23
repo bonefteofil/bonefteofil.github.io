@@ -4,12 +4,12 @@ export default function NicoviangiManager() {
 
     return (
         <ButtonProject
-            title="2023 - Web Application for Managing Contracts"
+            title="2023 - Digital Contract Manager"
             href="https://nv-management.vercel.app/"
             images={2}
         >
-            I collaborated with a colleague to build a Next.js web application that fills
-            rental contract templates using apartment and client data from MongoDB database.
+            Next.js web application that automates rental contract generation using apartment
+            and client data from MongoDB database, developed in collaboration with a colleague.
         </ButtonProject>
     );
 }

@@ -4,7 +4,7 @@ export default function PortfolioWebsite() {
 
     return (
         <ButtonProject
-            title="2022 - Portfolio Presentation Website"
+            title="2022 - Real Estate Catalog"
             href="https://nicoviangi.ro/"
             github="https://github.com/Skiuileuf/nicoviangi"
             images={1}

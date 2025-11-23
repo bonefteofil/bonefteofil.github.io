@@ -4,7 +4,7 @@ export default function BiaxialRobot() {
 
     return (
         <ButtonProject
-            title="2023 - Biaxial Robot for Object Positioning"
+            title="2023 - Biaxial Robot"
             github="https://github.com/bonefteofil/Biaxial-Robot"
             images={2}
         >

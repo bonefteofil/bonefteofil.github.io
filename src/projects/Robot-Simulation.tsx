@@ -5,12 +5,13 @@ export default function SimulatorFtc() {
 
     return (
         <ButtonProject
-            title='2020 - Robot Simulation for "FIRST Tech Challenge" in Unity'
+            title='2020 - Robot Simulation'
             images={2}
         >
             I participated in the international robotics competition FIRST Tech Challenge where I worked in a team
-            to build a robot capable of stacking blocks like on a tower. For the autonomous feature of the robot,
-            I created a simulation in Unity of the team's robot with holonomic movement, to test various algorithms for moving and stacking blocks.
+            to build a robot capable of stacking blocks like on a tower. For the autonomous feature, I created a simulation in Unity
+            of the team's robot with holonomic movement, to test various algorithms for moving and stacking blocks.<br /><br />
+
             <div className="flex gap-2">
                 <Button
                     href="https://bonefteofil.github.io/Atestat-Info/Diverse/Ftc%20Robot%20Setup%20(x86).exe">

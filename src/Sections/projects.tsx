@@ -1,13 +1,13 @@
 import Panel from "../components/Panel";
-import MessagingApp from "../projects/MessagingApp";
-import PersonalWebsite from "../projects/Personal-website";
+import MessagingApp from "../projects/Messaging";
+import PersonalWebsite from "../projects/Personal-portfolio";
 import QuadrupedRobot from "../projects/Quadruped-robot";
 import CastingManager from "../projects/Casting-manager";
 import NicoviangiManager from "../projects/Nicoviangi-manager";
 import BiaxialRobot from "../projects/Biaxial-robot";
-import PortfolioWebsite from "../projects/Portfolio-website";
-import SimulatorFtc from "../projects/Simulator-ftc";
-import GameEngineCSharp from "../projects/Game-engine-cSharp";
+import PortfolioWebsite from "../projects/Real-estate-catalog";
+import SimulatorFtc from "../projects/Robot-simulation";
+import GameEngine from "../projects/Game-engine";
 
 export default function Projects() {
 
@@ -22,7 +22,7 @@ export default function Projects() {
                 <BiaxialRobot />
                 <PortfolioWebsite />
                 <SimulatorFtc />
-                <GameEngineCSharp />
+                <GameEngine />
             </div>
         </Panel>
     )

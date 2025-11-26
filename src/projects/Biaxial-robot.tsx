@@ -12,7 +12,7 @@ export default function BiaxialRobot() {
             on a vertical plane with high precision. This was achieved using two stepper motors that pull strings connected to the object.<br /><br />
 
             <div className="w-10 h-1 float-start" />
-            I developed the c++ code for arduino that controls the motors to move the object to specific positions.
+            I developed the C++ code for Arduino that controls the motors to move the object to specific positions.
             Each motor has two pins: one for direction and one for steps. The motors operate by being active for a millisecond and then inactive at every step.
             The duration of the inactive state determines the motor's speed.<br /><br />
 

@@ -27,6 +27,7 @@ export default function Skills() {
                 <TechnologyLogo text="Tailwind" src={"tailwind"} />
                 <TechnologyLogo text="CSS" src={"css"} />
                 <TechnologyLogo text="Java" src={"java"} />
+                <TechnologyLogo text="Flutter" src={"flutter"} />
                 <TechnologyLogo text="Unity" src={"unity"} />
 
                 <div className="w-full text-center mt-4">Competencies:</div>

@@ -11,11 +11,11 @@ export default function ContactVertical() {
                 Passionate student
             </div>
             <div className="flex flex-col gap-[3vh] w-full">
-                <Button href="https://www.linkedin.com/in/bonefteofil/?locale=en_US" icon="linkedin">
-                    LinkedIn<br />@bonefteofil
-                </Button>
                 <Button href="https://www.github.com/bonefteofil" icon="github">
                     Github<br />@bonefteofil
+                </Button>
+                <Button href="https://www.linkedin.com/in/bonefteofil/?locale=en_US" icon="linkedin">
+                    LinkedIn<br />@bonefteofil
                 </Button>
                 <Button href="mailto: bonef.teofil@gmail.com" icon="email">
                     Email<br />bonef.teofil@gmail.com

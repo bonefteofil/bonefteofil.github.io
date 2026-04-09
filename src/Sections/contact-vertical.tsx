@@ -5,7 +5,7 @@ export default function ContactVertical() {
 
     return (
         <div className='h-full gap-4 p-3 panel flex flex-col justify-around text-center
-        overflow-y-auto overflow-x-hidden bg-[var(--panel-transparent-bg-cl)]'>
+        overflow-y-auto overflow-x-hidden bg-(--panel-transparent-bg-color)'>
             <div>
                 <div className="text-2xl/1 mb-[5vh] mt-[3vh]">Bonef Teofil</div>
                 Passionate student

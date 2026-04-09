@@ -6,7 +6,7 @@ export default function TechnologyLogo({ text, src }: { text: string, src: strin
     return (
         <center className="flex flex-col items-center">
             <img
-                className="w-7 h-7 sm:w-10 sm:h-10"
+                className="w-8 h-8 sm:w-10 sm:h-10"
                 src={BASE_URL + "icons/" + src + ".svg"}
                 alt={src}
             />

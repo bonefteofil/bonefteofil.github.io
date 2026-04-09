@@ -5,9 +5,9 @@ export default function AboutMe() {
     return (
         <Panel title="ABOUT MYSELF" >
             <center>
-                I am a 22 year old student dedicated and passionate about programming.
-                My active participation in numerous competitions has been complemented by the
-                development of various projects in which I have tackled complex challenges and proposed efficient solutions.
+                I am a 22-year-old final-year student passionate about programming and software development.
+                Through active participation in competitions and by building various projects,
+                I have tackled complex challenges and developed efficient, practical solutions.
             </center>
         </Panel>
 

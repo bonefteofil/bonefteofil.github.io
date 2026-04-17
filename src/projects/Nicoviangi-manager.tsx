@@ -4,7 +4,7 @@ export default function NicoviangiManager() {
 
     return (
         <ButtonProject
-            title="2023 - Digital Contract Manager"
+            title="Digital Contract Manager | 2023"
             href="https://nv-management.vercel.app/"
             images={2}
         >

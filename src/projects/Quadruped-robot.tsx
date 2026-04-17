@@ -4,7 +4,7 @@ export default function QuadrupedRobot() {
 
     return (
         <ButtonProject
-            title="2024 - Quadruped Robot"
+            title="Quadruped Robot | 2024"
             images={2}
             github="https://github.com/bonefteofil/Quadruped-Robot"
         >

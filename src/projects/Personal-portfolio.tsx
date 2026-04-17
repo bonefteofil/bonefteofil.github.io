@@ -5,7 +5,7 @@ export default function PersonalWebsite() {
 
     return (
         <ButtonProject
-            title="2025 - Personal Portfolio Website"
+            title="Personal Portfolio Website | 2025"
             github="https://github.com/bonefteofil/bonefteofil.github.io"
         >
             As a student passionate about software development, I'm always looking to improve my skills and share my work with the world.

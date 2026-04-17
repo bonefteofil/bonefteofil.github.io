@@ -4,7 +4,7 @@ export default function GameEngine() {
 
     return (
         <ButtonProject
-            title='2019 - 2D Game Engine'
+            title='2D Game Engine | 2019'
             github="https://github.com/bonefteofil/TeoEngine"
             images={2}
         >

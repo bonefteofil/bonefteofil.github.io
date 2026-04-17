@@ -5,7 +5,7 @@ export default function MessagingApp() {
 
     return (
         <ButtonProject
-            title="2025 - Messaging App"
+            title="Messaging App | 2025"
             href= "https://messaging.bonefteofil.ro"
             github="https://github.com/bonefteofil/MessagingApp"
             images={1}

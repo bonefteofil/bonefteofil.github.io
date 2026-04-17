@@ -4,7 +4,7 @@ export default function CastingManager() {
 
     return (
         <ButtonProject
-            title="2024 - Casting Manager"
+            title="Casting Manager | 2024"
             images={2}
         >
             I participated in the development of a application using Next.js

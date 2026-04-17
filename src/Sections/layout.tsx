@@ -3,7 +3,7 @@ import Contact from './Contact';
 import AboutMe from './About-me';
 import Skills from './Skills';
 import Projects from './Projects';
-import Education from './Education';
+import Awards from './Awards';
 
 export default function Layout() {
 
@@ -19,7 +19,7 @@ export default function Layout() {
                 </div>
                 <AboutMe />
                 <Projects />
-                <Education />
+                <Awards />
                 <Skills />
             </div>
         </div >

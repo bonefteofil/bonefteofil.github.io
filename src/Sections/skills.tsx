@@ -12,7 +12,6 @@ export default function Skills() {
                     <TechnologyLogo text="Python" src={"python"} />
                     <TechnologyLogo text="C#" src={"csharp"} />
                     <TechnologyLogo text="SQL" src={"sql"} />
-                    <TechnologyLogo text="MongoDB" src={"mongodb"} />
                     <TechnologyLogo text="Rest API" src={"restapi"} />
                 </Card>
 
@@ -25,6 +24,7 @@ export default function Skills() {
                 </Card>
 
                 <Card title="Tools & Hardware">
+                    <TechnologyLogo text="Linux" src={"linux"} />
                     <TechnologyLogo text="Arduino" src={"arduino"} />
                     <TechnologyLogo text="Raspberry Pi" src={"raspberry"} />
                     <TechnologyLogo text="Github" src={"github"} />
